@@ -25,8 +25,12 @@
   \vspace{3pt}{\color{rulecolor}\hrule height 0.5pt}\vspace{5pt}
 }
 
+\newcommand{\resdate}[1]{{\small\color{muted}#1}}
+
 \newcommand{\publication}[3]{%
-  \item \textbf{#1}\enspace{\color{accent}\textbf{#2}}\par
+  \item \begin{tabular*}{\linewidth}{@{}p{\dimexpr\linewidth-2.1in\relax}@{\extracolsep{\fill}}p{2in}@{}}
+    \raggedright\textbf{#1} & \raggedleft\color{accent}\bfseries #2
+  \end{tabular*}\par
   {\footnotesize\color{muted}#3}
 }
 
@@ -42,17 +46,17 @@
 
 \ressection{Education}
 \textbf{Carnegie Mellon University}, Computer Science Department
-\hfill 2024--present\par
+\hfill \resdate{2024--Present}\par
 Ph.D. in Computer Science (expected 2027). Advisor: Richard Peng \par
 Research areas: numerical linear algebra, spectral graph theory \par
 \vspace{4pt}
 \textbf{Tsinghua University}, Institute for Interdisciplinary Information Sciences
-\hfill 2020--2024\par
+\hfill \resdate{2020--2024}\par
 B.S. in Computer Science, \href{https://iiis.tsinghua.edu.cn/en/yaoclass/}{Yao Class}.\par
 
 \ressection{Projects}
-\textbf{FizzyProver} \hfill May 2026--present\par
-{\color{muted}Sole developer·Multi-agent system for mathematical research}\par
+\textbf{FizzyProver} \hfill \resdate{May 2026--Present}\par
+{\small\color{muted}Sole developer \textperiodcentered\ Multi-agent system for mathematical research}\par
 \begin{itemize}[leftmargin=1.25em,topsep=3pt,itemsep=2pt,parsep=0pt]
   \item Designed a recursive Codex workflow that schedules independent proof subproblems in parallel and alternates prover and verifier passes to critique and revise proof attempts.
   \item Built and deployed a web platform used by 20+ academic users across 300+ runs. Among the runs we have examined to date, including runs powered by GPT-5.5, we have not observed any incorrect final proofs; by contrast, our direct GPT-5.5 Pro attempts produced flawed proofs.
@@ -70,7 +74,7 @@ B.S. in Computer Science, \href{https://iiis.tsinghua.edu.cn/en/yaoclass/}{Yao C
   % \item \textbf{IOI 2019.} International Olympiad in Informatics, 5th place, Gold Medal.
   % \item \textbf{NOI18.} National Olympiad in Informatics, Gold Medal.
 \end{itemize}
-\vspace{3pt}
+\vspace{0.3pt}
 \begin{itemize}[leftmargin=1.25em,topsep=0pt,itemsep=0pt,parsep=0pt]
   \item Yao Award, Bronze Medal (awarded to five Yao Class students in 2023).
 \end{itemize}
