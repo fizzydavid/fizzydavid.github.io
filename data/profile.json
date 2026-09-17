@@ -1,0 +1,30 @@
+{
+  "name": "Junzhao Yang",
+  "metaDescription": "Academic homepage of Junzhao Yang, a researcher in theoretical computer science.",
+  "position": "Ph.D. Student",
+  "institution": "Carnegie Mellon University",
+  "email": "junzhaoy [at] andrew.cmu.edu",
+  "introduction": [
+    "I am a third-year Ph.D. student in the [Computer Science Department](https://www.csd.cs.cmu.edu/) at Carnegie Mellon University, where I am fortunate to be advised by [Richard Peng](https://www.cs.cmu.edu/~yangp/). Previously, I graduated from the [Yao Class](https://iiis.tsinghua.edu.cn/info/1109/4176.htm) at Tsinghua University.",
+    "My research interests broadly lie in theoretical computer science. More specifically, I am interested in the design and analysis of fast and space-efficient algorithms, including problems in numerical linear algebra and optimization."
+  ],
+  "authorOrderNote": "Authors are listed alphabetically, as is customary in theoretical computer science.",
+  "links": [
+    {
+      "label": "Resume",
+      "url": "/output/pdf/junzhao-yang-resume.pdf"
+    },
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=WAUEDoUAAAAJ"
+    },
+    {
+      "label": "DBLP",
+      "url": "https://dblp.org/pid/358/9046.html"
+    }
+  ],
+  "portrait": "/assets/junzhao_yang_headshot_CMU.png",
+  "portraitAlt": "Portrait Junzhao Yang",
+  "copyrightYear": 2026,
+  "lastUpdated": "September 2026"
+}

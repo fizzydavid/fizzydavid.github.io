@@ -1,0 +1,157 @@
+[
+  {
+    "id": "FGY26-Entrywise",
+    "type": "paper-conference",
+    "title": "Entrywise Approximate Solutions for SDDM Systems in Almost-Linear Time",
+    "authors": ["Angelo Farfan", "Mehrdad Ghadiri", "Junzhao Yang"],
+    "issued": {
+      "date-parts": [[2026, 6, 9]]
+    },
+    "container-title": "ACM Symposium on Theory of Computing",
+    "event-title": "STOC",
+    "page": "518–528",
+    "URL": "https://arxiv.org/abs/2511.16570",
+    "_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2511.16570"
+      }
+    ]
+  },
+  {
+    "id": "LNY26-Numerical",
+    "type": "paper-conference",
+    "title": "Numerical Linear Algebra in Linear Space",
+    "authors": ["Yiping Liu", "Hoai-An Nguyen", "Junzhao Yang"],
+    "issued": {
+      "date-parts": [[2026, 1, 7]]
+    },
+    "container-title": "ACM-SIAM Symposium on Discrete Algorithms",
+    "event-title": "SODA",
+    "page": "6392–6435",
+    "URL": "https://arxiv.org/abs/2507.02433",
+    "_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2507.02433"
+      }
+    ]
+  },
+  {
+    "id": "GNY26-Entrywise",
+    "type": "paper-conference",
+    "title": "Entrywise Approximation for Matrix Inversion and Linear Systems",
+    "authors": ["Mehrdad Ghadiri", "Hoai-An Nguyen", "Junzhao Yang"],
+    "issued": {
+      "date-parts": [[2026, 1, 7]]
+    },
+    "container-title": "ACM-SIAM Symposium on Discrete Algorithms",
+    "event-title": "SODA",
+    "page": "5199–5210",
+    "URL": "https://arxiv.org/abs/2504.19054",
+    "_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2504.19054"
+      }
+    ]
+  },
+  {
+    "id": "LPTWY25-Adaptive",
+    "type": "manuscript",
+    "title": "Adaptive Matrix Sparsification and Applications to Empirical Risk Minimization",
+    "authors": ["Yang P. Liu", "Richard Peng", "Colin Tang", "Albert Weng", "Junzhao Yang"],
+    "issued": {
+      "date-parts": [[2025, 12, 1]]
+    },
+    "container-title": "arXiv preprint",
+    "URL": "https://arxiv.org/abs/2512.02003",
+    "_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2512.02003"
+      }
+    ]
+  },
+  {
+    "id": "LPY26-Approximate",
+    "type": "paper-conference",
+    "title": "Approximate Spanning Tree Counting from Uncorrelated Edge Sets",
+    "authors": ["Yang P. Liu", "Richard Peng", "Junzhao Yang"],
+    "issued": {
+      "date-parts": [[2026, 11, 8]]
+    },
+    "container-title": "IEEE Symposium on Foundations of Computer Science",
+    "event-title": "FOCS",
+    "status": "to appear",
+    "URL": "https://arxiv.org/abs/2505.14666",
+    "_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2505.14666"
+      }
+    ]
+  },
+  {
+    "id": "LPWY26-Fast",
+    "type": "paper-conference",
+    "title": "Fast Convergence of Gradient Descent on Random ℓₚ-Norm Regression",
+    "authors": ["Yang Liu", "Richard Peng", "Weina Wang", "Junzhao Yang"],
+    "issued": {
+      "date-parts": [[2026, 11, 8]]
+    },
+    "container-title": "IEEE Symposium on Foundations of Computer Science",
+    "event-title": "FOCS",
+    "status": "to appear"
+  },
+  {
+    "id": "LY24-Memory-Sample",
+    "type": "paper-conference",
+    "title": "Memory-Sample Lower Bounds for LWE",
+    "authors": ["Mingqi Lu", "Junzhao Yang"],
+    "issued": {
+      "date-parts": [[2024, 8, 18]]
+    },
+    "container-title": "International Cryptology Conference",
+    "event-title": "CRYPTO",
+    "page": "158–182"
+  },
+  {
+    "id": "LWY24-The",
+    "type": "paper-conference",
+    "title": "The Cost of Parallelizing Boosting",
+    "authors": ["Xin Lyu", "Hongxun Wu", "Junzhao Yang"],
+    "issued": {
+      "date-parts": [[2024, 1, 4]]
+    },
+    "container-title": "ACM-SIAM Symposium on Discrete Algorithms",
+    "event-title": "SODA",
+    "page": "3140–3155",
+    "URL": "https://arxiv.org/abs/2402.15145",
+    "_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2402.15145"
+      }
+    ]
+  },
+  {
+    "id": "LTWY23-Tight",
+    "type": "paper-conference",
+    "title": "Tight Time-Space Lower Bounds for Constant-Pass Learning",
+    "authors": ["Xin Lyu", "Avishay Tal", "Hongxun Wu", "Junzhao Yang"],
+    "issued": {
+      "date-parts": [[2023, 10, 29]]
+    },
+    "container-title": "IEEE Symposium on Foundations of Computer Science",
+    "event-title": "FOCS",
+    "page": "1195–1202",
+    "URL": "https://arxiv.org/abs/2310.08070",
+    "_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2310.08070"
+      }
+    ]
+  }
+]

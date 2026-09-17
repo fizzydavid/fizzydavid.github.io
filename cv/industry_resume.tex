@@ -1,0 +1,91 @@
+% Manually maintained industry resume. No generated fragments or build pipeline.
+\documentclass[11pt,letterpaper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[top=0.58in,bottom=0.58in,left=0.70in,right=0.70in]{geometry}
+\usepackage{enumitem}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{pdftitle={Junzhao Yang - Resume},pdfauthor={Junzhao Yang}}
+
+\definecolor{accent}{HTML}{26736B}
+\definecolor{muted}{HTML}{4F5963}
+\definecolor{rulecolor}{HTML}{D8DEE2}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\renewcommand{\familydefault}{\sfdefault}
+
+\newcommand{\ressection}[1]{%
+  \par\vspace{8pt}
+  {\color{accent}\bfseries\fontsize{10.5}{12.5}\selectfont\MakeUppercase{#1}}\par
+  \vspace{3pt}{\color{rulecolor}\hrule height 0.5pt}\vspace{5pt}
+}
+
+\newcommand{\publication}[3]{%
+  \item \textbf{#1}\enspace{\color{accent}\textbf{#2}}\par
+  {\footnotesize\color{muted}#3}
+}
+
+\begin{document}
+
+{\fontsize{20}{23}\selectfont\bfseries Junzhao Yang}\par
+\vspace{3pt}
+{
+\small Pittsburgh, PA \enspace\textbar\enspace
++1 (412) 844-1653
+  \enspace\textbar\enspace \href{mailto:junzhaoy@andrew.cmu.edu}{junzhaoy@andrew.cmu.edu}
+  \enspace\textbar\enspace \href{https://fizzydavid.github.io/}{fizzydavid.github.io}}\par
+
+\ressection{Education}
+\textbf{Carnegie Mellon University}, Computer Science Department
+\hfill 2024--present\par
+Ph.D. in Computer Science (expected 2027). Advisor: Richard Peng \par
+Research areas: numerical linear algebra, spectral graph theory \par
+\vspace{4pt}
+\textbf{Tsinghua University}, Institute for Interdisciplinary Information Sciences
+\hfill 2020--2024\par
+B.S. in Computer Science, \href{https://iiis.tsinghua.edu.cn/en/yaoclass/}{Yao Class}.\par
+
+\ressection{Projects}
+\textbf{FizzyProver} \hfill May 2026--present\par
+{\color{muted}Sole developer·Multi-agent system for mathematical research}\par
+\begin{itemize}[leftmargin=1.25em,topsep=3pt,itemsep=2pt,parsep=0pt]
+  \item Designed a recursive Codex workflow that schedules independent proof subproblems in parallel and alternates prover and verifier passes to critique and revise proof attempts.
+  \item Built and deployed a web platform used by 20+ academic users across 300+ runs. Among the runs we have examined to date, including runs powered by GPT-5.5, we have not observed any incorrect final proofs; by contrast, our direct GPT-5.5 Pro attempts produced flawed proofs.
+\end{itemize}
+
+\ressection{Honors and Awards}
+\begin{itemize}[leftmargin=1.25em,topsep=2pt,itemsep=2pt,parsep=0pt]
+  \item ICPC North America Championship 2025, 2nd place, Silver Medal.
+  \item \textbf{46th ICPC World Finals, 10th place, Bronze Medal} (held in 2024).
+  \item \textbf{International Olympiad in Informatics 2019, 5th place, Gold Medal}.
+  \item National Olympiad in Informatics 2018, Gold Medal.
+
+  % \item \textbf{NAC25.} ICPC North America Championship, 2nd place, Silver Medal.
+  % \item \textbf{WF .} 46th ICPC World Finals, 10th place, Bronze Medal.
+  % \item \textbf{IOI 2019.} International Olympiad in Informatics, 5th place, Gold Medal.
+  % \item \textbf{NOI18.} National Olympiad in Informatics, Gold Medal.
+\end{itemize}
+\vspace{3pt}
+\begin{itemize}[leftmargin=1.25em,topsep=0pt,itemsep=0pt,parsep=0pt]
+  \item Yao Award, Bronze Medal (awarded to five Yao Class students in 2023).
+\end{itemize}
+
+\ressection{Publications}
+{\footnotesize\color{muted}Authors are listed alphabetically, as is customary in theoretical computer science.}\par
+\begin{enumerate}[label={[\arabic*]},leftmargin=2.1em,topsep=4pt,itemsep=4pt,parsep=0pt]
+  \publication{Fast Convergence of Gradient Descent on Random $\ell_p$-Norm Regression}{FOCS 2026 (to appear)}{Yang Liu, Richard Peng, Weina Wang, \textbf{Junzhao Yang}}
+  \publication{Approximate Spanning Tree Counting from Uncorrelated Edge Sets}{FOCS 2026 (to appear)}{Yang P. Liu, Richard Peng, \textbf{Junzhao Yang}}
+  \publication{Entrywise Approximate Solutions for SDDM Systems in Almost-Linear Time}{STOC 2026}{Angelo Farfan, Mehrdad Ghadiri, \textbf{Junzhao Yang}}
+  \publication{Entrywise Approximation for Matrix Inversion and Linear Systems}{SODA 2026}{Mehrdad Ghadiri, Hoai-An Nguyen, \textbf{Junzhao Yang}}
+  \publication{Numerical Linear Algebra in Linear Space}{SODA 2026}{Yiping Liu, Hoai-An Nguyen, \textbf{Junzhao Yang}}
+  \publication{Memory-Sample Lower Bounds for LWE}{CRYPTO 2024}{Mingqi Lu, \textbf{Junzhao Yang}}
+  \publication{The Cost of Parallelizing Boosting}{SODA 2024}{Xin Lyu, Hongxun Wu, \textbf{Junzhao Yang}}
+  \publication{Tight Time-Space Lower Bounds for Constant-Pass Learning}{FOCS 2023}{Xin Lyu, Avishay Tal, Hongxun Wu, \textbf{Junzhao Yang}}
+\end{enumerate}
+
+\end{document}

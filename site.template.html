@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{META_DESCRIPTION}}">
+    <meta name="color-scheme" content="light">
+    <title>{{NAME}}</title>
+    <link rel="stylesheet" href="/styles.css?v={{STYLES_VERSION}}">
+  </head>
+  <body>
+    <header class="site-header shell">
+      <div class="site-name">{{NAME}}</div>
+      <nav aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#publications">Publications</a>
+      </nav>
+    </header>
+
+    <main class="shell">
+      <section class="about" id="about" aria-labelledby="page-title">
+        <div class="about-copy">
+          <h1 id="page-title">{{NAME}}</h1>
+          <p class="affiliation">{{POSITION}} · {{INSTITUTION}}</p>
+          <p class="contact-line">Email: {{EMAIL}}</p>
+          <div class="introduction">
+<!-- INTRODUCTION -->
+          </div>
+          <div class="profile-links" aria-label="Profile links">
+<!-- PROFILE_LINKS -->
+          </div>
+        </div>
+
+        <figure class="portrait">
+          <img src="{{PORTRAIT}}" alt="{{PORTRAIT_ALT}}" width="720" height="900">
+        </figure>
+      </section>
+
+      <section class="publications" id="publications" aria-labelledby="publications-title">
+        <header class="section-header">
+          <h2 id="publications-title">Selected Publications</h2>
+          <p>{{AUTHOR_ORDER_NOTE}}</p>
+        </header>
+
+        <div class="publication-list">
+<!-- PUBLICATIONS -->
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer shell">
+      <p>© {{COPYRIGHT_YEAR}} {{NAME}}</p>
+      <p>Last updated {{LAST_UPDATED}}</p>
+    </footer>
+  </body>
+</html>
